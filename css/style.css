@@ -1375,7 +1375,7 @@ span#nav-close:hover {
 	z-index: -1;
 }
 .some-facts {
-	background: url("http://via.placeholder.com/2000x1333/000/fff") center center no-repeat;
+	background: url(../images/cta-bg.jpg) center center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	padding: 40px 0 100px;

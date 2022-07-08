@@ -23,25 +23,87 @@ if(serviceInfo[0].textContent == 'Maintenance'){
   serviceInfo[1].innerHTML = `Depending on what you need maintenance costs will vary.`
 }
 else if(serviceInfo[0].textContent == 'Repair'){
-  serviceInfo[1].innerHTML = `We repair anything from fans, switches and lights and the average cost to repair them is around <b>$141 to $419</b>. Emergency/urgent repairs by our electricians on weekends, holidays, or evenings can cost <b>$150/hour</b> and may also change a <b>$75</b> callout fee.<br><br>Replacing an electrical panel can cost between <b>$850 to $2500</b>. Most homes today use a 200-amp panel, but larger homes need 400 amps which cost between <b>$2000 to $4000</b>. Trying to get by with a breaker box that is too small can result in tripped breakers, overheating, and fire. Those issues will cost more in the long run, so it might be a good idea to spend the extra money to get a 200-amp panel now and avoid repairs later.`
+  serviceInfo[1].innerHTML = `We repair fans, switches and lights and the average cost to repair them is around <b>$141 to $419</b>. Emergency/urgent repairs by our electricians on weekends, holidays, or evenings can cost <b>$150/hour</b> and may also change a <b>$75</b> callout fee.<br><br>Replacing an electrical panel can cost between <b>$850 to $2500</b>. Most homes today use a 200-amp panel, but larger homes need 400 amps which cost between <b>$2000 to $4000</b>. Trying to get by with a breaker box that is too small can result in tripped breakers, overheating, and fire. Those issues will cost more in the long run, so it might be a good idea to spend the extra money to get a 200-amp panel now and avoid repairs later.`
 }
 else if(serviceInfo[0].textContent == 'Installation'){
-  serviceInfo[1].innerHTML = `We install fans, switches, and lights and the average cost to repair them is around <b>$141 to $419</b>.<br><br>Installing Door bells, smoke or carbon monoxide detector ranges <b>$90 to $150</b><br><br>Install Light Fixtures	$113 – $414
-  <br><br>Install Recessed Light Fixture	$125 – $300
-  <br><br>Install Outlet	$120 – $150
-  <br><br>Install Ceiling Fan, Track Lights, or Wall Sconce	$150 – $350
-  <br><br>Replace Circuit Breaker Switch	$150 – $200
-  <br><br>Install Attic Fans	$300 – $900
-  <br><br>Install Bathroom Fan	$150 – $550
-  <br><br>Smart Home Automation System	$600 – $1,800
-  <br><br>Install Electric Car Charging Station	$750 – $2,600
-  <br><br>Install Hot Tub Wiring / Conduit	$800 – $1,500
-  <br><br>Wiring a House	$1,600 – $11,400
-  <br><br>Install Home Generator	$3,000 – $5,000
-  <br><br>Install Hardwired Home Automation System	$4,000 – $12,000`
+  serviceInfo[1].innerHTML = 
+  `
+  We install fans, switches, and lights and the average cost to repair them is around <b>$141 to $419</b>.<br>Below is a table with our current installation services and its price range.<br><br>
+  
+  <div class="row box">
+    <div class="col-8"> 
+      <div class="service-item">
+        <div class="service-info text-left">
+          <h5 class="text-uppercase">Service</h5>
+          <p>Installing Door bells, smoke or carbon monoxide detector</p>
+          <p>Install Light Fixtures</p>
+          <p>Install Recessed Light Fixture</p>
+          <p>Install Outlet</p>
+          <p>Install Ceiling Fan, Track Lights, or Wall Sconce</p>
+          <p>Install Attic Fans</p>
+          <p>Install Bathroom Fan</p>
+          <p>Install Electric Car Charging Station</p>
+          <p>Install Hot Tub Wiring / Conduit</p>
+          <p>Install Home Generator</p>
+          <p>Install Hardwired Home Automation System</p>
+
+        </div>
+      </div> 
+    </div>
+
+    <div class="col-4"> 
+      <div class="service-item">
+        <div class="service-info text-left">
+          <h5 class="text-uppercase">Price</h5>
+          <p><b>$90 - $150</b></p>
+          <p><b>$113 - $414</b></p>
+          <p><b>$125 - $300</b></p>
+          <p><b>$120 - $150</b></p>
+          <p><b>$150 - $350</b></p>
+          <p><b>$300 - $900</b></p>
+          <p><b>$150 - $550</b></p>
+          <p><b>$750 - $2,600</b></p>
+          <p><b>$800 - $1,500</b></p>
+          <p><b>$3,000 - $5,000</b></p>
+          <p><b>$4,000 - $12,000</b></p>
+
+        </div>
+      </div>
+    </div>
+      
+  </div>
+    `
 }
 else if(serviceInfo[0].textContent == 'Upgrading'){
-  serviceInfo[1].innerHTML = `Upgrade Electrical Panel	$1,100 – $2,500`
+  serviceInfo[1].innerHTML = 
+  `	
+  The cost to replace your electrical panel is between <b>$850 to $2,500</b>. Today, most homes need the 200-amp panel, but if you have a larger home and need 400 amps, the installation will cost from <b>$2,000 up to $4,000</b>. Trying to get by with a breaker box that is too small can result in tripped breakers, overheating, and fire. Those issues will cost more in the long run, so it might be a good idea to spend the extra money to get a 200-amp panel now and avoid repairs later.<br><br>
+  <div class="row box">
+    <div class="col-8"> 
+      <div class="service-item">
+        <div class="service-info text-left">
+          
+          <h5 class="text-uppercase">Service</h5>
+          <p>Upgrade Electrical Panel</p>
+
+        </div>
+      </div> 
+    </div>
+
+    <div class="col-4"> 
+      <div class="service-item">
+        <div class="service-info text-left">
+          
+          <h5 class="text-uppercase">Price</h5>
+          <p><b>$1,100 – $2,500</b></p>
+
+        </div>
+      </div>
+    </div>
+      
+  </div>
+  
+  `
 }
 else if(serviceInfo[0].textContent == 'Troubleshoot'){
   serviceInfo[1].innerHTML = `Troubleshooting is the first step for many electrical projects. Identifying the source of the problem and then providing solutions is our specialty.`

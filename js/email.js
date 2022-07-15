@@ -2,7 +2,7 @@ function sendEmail(){
 
   Email.send({
     SecureToken : "03aed156-fabd-41c6-a634-4e8c5b18ece9",
-    To : 'waymarketingltd@gmail.com',
+    To : 'info@electriczone.ca',
     From : 'waymarketingltd@gmail.com',
     Subject: document.querySelector("#subject").value,
     Body : 
@@ -15,5 +15,5 @@ function sendEmail(){
   }).then(
     alert("Message sent successfully")
   );
-  
+
 }

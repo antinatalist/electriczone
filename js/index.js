@@ -1,3 +1,4 @@
+console.log("If the website doesn't update, CTRL + F5 to hard reload to refresh browser cache and redownload all website files including photos, html files, and javascript files. You will have the most updated version of the website.")
 //for index.html
 let allServices = document.getElementsByClassName("servicesButton")
 let serviceIcons = document.getElementsByClassName("service-icon")
@@ -20,14 +21,14 @@ document.querySelector(".orangeIcon").className = `${localStorage.getItem("logo"
 serviceInfo[0].innerHTML = `${localStorage.getItem("title")}`
 if(serviceInfo[0].textContent == 'Maintenance'){
   //serviceInfo[1].innerHTML = `${localStorage.getItem("description")}`
-  serviceInfo[1].innerHTML = `Depending on what you need maintaining, costs will vary. Please contact us for more information.`
+  serviceInfo[1].innerHTML = `Depending on what you need maintaining, costs will vary. Please contact us for more information. <br><a href="index.html#contact" class="bttn servicesButton">Contact Us <i class="fi flaticon-next"></i></a> `
 }
 else if(serviceInfo[0].textContent == 'Repair'){
   serviceInfo[1].innerHTML = 
   `
   We repair fans, switches and lights and the average cost to repair them is around <b>$141 to $419</b>. Emergency/urgent repairs by our electricians on weekends, holidays, or evenings can cost <b>$150/hour</b> and may also change a <b>$75</b> callout fee.<br><br>
   
-  Replacing an electrical panel can cost between <b>$850 to $2500</b>. Most homes today use a 200-amp panel, but larger homes need 400 amps which cost between <b>$2000 to $4000</b>. Trying to get by with a breaker box that is too small can result in tripped breakers, overheating, and fire. Those issues will cost more in the long run, so it might be a good idea to spend the extra money to get a 200-amp panel now and avoid repairs later.<br>br>
+  Replacing an electrical panel can cost between <b>$850 to $2500</b>. Most homes today use a 200-amp panel, but larger homes need 400 amps which cost between <b>$2000 to $4000</b>. Trying to get by with a breaker box that is too small can result in tripped breakers, overheating, and fire. Those issues will cost more in the long run, so it might be a good idea to spend the extra money to get a 200-amp panel now and avoid repairs later.<br><br>
 
 
   `

@@ -7,13 +7,16 @@ function sendEmail(){
     Subject: document.querySelector("#subject").value,
     Body : 
     `
-    Name: ${document.querySelector("#name").value}<br>
-    Email: ${document.querySelector("#email").value}<br>
-    Phone: ${document.querySelector("#phone").value}<br>
-    Message: ${document.querySelector("#message").value}<br>
+    Name: ${document.querySelector("#name").value}<br><br>
+
+    Email: ${document.querySelector("#email").value}<br><br>
+
+    Phone: ${document.querySelector("#phone").value}<br><br>
+
+    Message: ${document.querySelector("#message").value}
     `
   }).then(
-    alert("Message sent successfully")
+    alert("Thank you. Your message has been sent successfully")
   );
 
 }

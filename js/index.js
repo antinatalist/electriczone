@@ -1,6 +1,5 @@
 console.log("If the website doesn't update, CTRL + F5 to hard reload to refresh browser cache and redownload all website files including photos, html files, and javascript files. You will have the most updated version of the website.")
 
-alert("test message")
 //for index.html
 let allServices = document.getElementsByClassName("servicesButton")
 let serviceIcons = document.getElementsByClassName("service-icon")

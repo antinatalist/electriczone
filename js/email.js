@@ -1,7 +1,7 @@
 function sendEmail(){
 
   Email.send({
-    SecureToken : "03aed156-fabd-41c6-a634-4e8c5b18ece9",
+    SecureToken : "9021bacc-0bcf-44bf-b1cd-d94f13ce411b",
     To : 'info@electriczone.ca',
     From : 'waymarketingltd@gmail.com',
     Subject: `[Electric Zone] ${document.querySelector("#subject").value}`,
